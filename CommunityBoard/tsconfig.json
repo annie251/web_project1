@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // Use the new JSX runtime
+    "lib": ["dom", "esnext"], // Include DOM types
+    "module": "esnext",
+    "target": "es6",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node" // Ensure Node.js module resolution
+  },
+  "include": ["src"]
+}
